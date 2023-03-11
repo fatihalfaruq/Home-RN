@@ -1,4 +1,10 @@
-import {Text, StyleSheet, View, ScrollView} from 'react-native';
+import {
+  Text,
+  StyleSheet,
+  View,
+  ScrollView,
+  TouchableOpacity,
+} from 'react-native';
 import React, {Component} from 'react';
 import Carousel from './Carousel';
 import Carousel2 from './Carousel2';
@@ -8,17 +14,66 @@ export default class Profil extends Component {
     return (
       <View>
         <ScrollView horizontal>
-          <Carousel />
-          <Carousel2 />
-          <Carousel />
-          <Carousel2 />
-          <Carousel />
-          <Carousel2 />
-          <Carousel />
-          <Carousel2 />
-          <Carousel />
-          <Carousel2 />
-          <Carousel />
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Carousel2 />
+          </TouchableOpacity>
         </ScrollView>
       </View>
     );

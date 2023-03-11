@@ -1,4 +1,4 @@
-import {Text, StyleSheet, View, Image} from 'react-native';
+import {Text, StyleSheet, View, Image, TouchableOpacity} from 'react-native';
 import React, {Component} from 'react';
 
 export default class Carouselprof extends Component {
@@ -19,9 +19,11 @@ export default class Carouselprof extends Component {
               source={require('../assets/icon/correct.png')}
             />
           </Text>
-          <View style={styles.contom}>
-            <Text style={styles.tx2}>Edit Profil</Text>
-          </View>
+          <TouchableOpacity>
+            <View style={styles.contom}>
+              <Text style={styles.tx2}>Edit Profil</Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </View>
     );
